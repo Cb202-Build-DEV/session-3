@@ -16,8 +16,13 @@
 // TODO: create total and items
 // TODO: calculate the average (hint: which operator divides?)
 // TODO: console.log the average
-
-
+let total;
+let item1 = 15;
+let item2 = 16;
+let item3 = 24;
+total = item1 + item2 + item3;
+let avg = total/3;
+console.log(avg)
 /* --------------------------------------------
    2. COMPARISON OPERATORS
    Create two variables, `password` and `confirmPassword`.
@@ -28,7 +33,9 @@
 // TODO: create password and confirmPassword (try making them match, then not match)
 // TODO: use === to compare them
 // TODO: console.log the boolean result
-
+let password = "catlover123";
+let confirmPassword = "catlover123";
+console.log(password === confirmPassword);
 
 /* --------------------------------------------
    3. LOGICAL OPERATORS
@@ -52,7 +59,9 @@
 // TODO: create age
 // TODO: check if age >= 18
 // TODO: console.log the result
-
+let age = 26;
+let isAdult = age>= 18;
+console.log(isAdult)
 
 /* --------------------------------------------
    BONUS 1 — OPERATOR PRECEDENCE
@@ -74,7 +83,7 @@ console.log("Bonus 1:", bonusResult);
    Values to test: 0, "", "hello", null, undefined, 42, NaN
 -------------------------------------------- */
 
-let mysteryValue = ""; // try changing this to each value above
+let mysteryValue = 42; // try changing this to each value above
 
 if (mysteryValue) {
   console.log("Bonus 2: truthy!");
