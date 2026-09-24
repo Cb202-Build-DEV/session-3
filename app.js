@@ -41,7 +41,11 @@
 // TODO: create canEnter using the correct logical operator
 // TODO: console.log canEnter
 
+let hasTicket = false;
+let isGuest = false;
 
+let canEnter = hasTicket || isGuest;
+console.log(canEnter);
 /* --------------------------------------------
    4. VALIDATION (COMPARISON)
    Create a variable `age`.
