@@ -13,6 +13,11 @@
    Calculate the average and log the result.
 -------------------------------------------- */
 
+let total=30;
+let items=7;
+let average=total/items;
+console.log("this is the average = " + average);
+
 // TODO: create total and items
 // TODO: calculate the average (hint: which operator divides?)
 // TODO: console.log the average
@@ -28,7 +33,9 @@
 // TODO: create password and confirmPassword (try making them match, then not match)
 // TODO: use === to compare them
 // TODO: console.log the boolean result
-
+const password=84;
+const confirmPassword=83;
+console.log(confirmPassword==password);
 
 /* --------------------------------------------
    3. LOGICAL OPERATORS
@@ -37,6 +44,15 @@
    Log the value of canEnter.
 -------------------------------------------- */
 
+let hasTicket=true;
+let isGuest=false;
+let canEnter;
+if (hasTicket || isGuest){
+   canEnter=true;
+} else {
+   canEnter=false;
+}
+console.log(canEnter)
 // TODO: create hasTicket and isGuest
 // TODO: create canEnter using the correct logical operator
 // TODO: console.log canEnter
@@ -52,7 +68,9 @@
 // TODO: create age
 // TODO: check if age >= 18
 // TODO: console.log the result
-
+let age=15;
+if(age>=18) console.log("Is older than 18")
+else console.log("Is younger than 18")
 
 /* --------------------------------------------
    BONUS 1 — OPERATOR PRECEDENCE
@@ -61,7 +79,7 @@
    if you were right.
 -------------------------------------------- */
 
-// My guess: ______
+// My guess: 19
 let bonusResult = 10 + 5 * 2 - (3 % 2);
 console.log("Bonus 1:", bonusResult);
 
